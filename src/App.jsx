@@ -33,7 +33,9 @@ function App() {
         }}
       ></div>
       <div className="relative mt-40 justify-right">
-        <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
+        <div className="flex justify-center items-center text-2xl mb-14 font-semibold">Currency Converter</div>
+        <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-slate-600">
+    
           <form
             onSubmit={(e) => {
               e.preventDefault();
